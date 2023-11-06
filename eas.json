@@ -1,0 +1,39 @@
+{
+	"cli": {
+		"version": ">= 3.13.3",
+		"promptToConfigurePushNotifications": false
+	},
+	"build": {
+		"development": {
+			"developmentClient": true,
+			"ios": {
+				"image": "latest"
+			},
+			"distribution": "internal"
+		},
+		"preview": {
+			"distribution": "internal"
+		},
+		"internalpreview": {
+			"ios": {
+				"resourceClass": "m-medium"
+			},
+			"channel": "internalpreview"
+		},
+		"production": {},
+		"apkbuild": {
+			"android": {
+				"buildType": "apk"
+			}
+		}
+	},
+	"submit": {
+		"production": {
+			"ios": {
+				"appleId": "benjaminagyekum63@gmail.com",
+				"ascAppId": "1641743233",
+				"appleTeamId": "33P743AHLU"
+			}
+		}
+	}
+}
